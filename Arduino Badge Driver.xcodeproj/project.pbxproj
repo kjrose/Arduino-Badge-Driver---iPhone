@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		419B1CE01616774400D137E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B1CDF1616774400D137E4 /* UIKit.framework */; };
+		419B1CE21616774400D137E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B1CE11616774400D137E4 /* Foundation.framework */; };
+		419B1CE41616774400D137E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B1CE31616774400D137E4 /* CoreGraphics.framework */; };
+		419B1CEA1616774500D137E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 419B1CE81616774500D137E4 /* InfoPlist.strings */; };
+		419B1CEC1616774500D137E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 419B1CEB1616774500D137E4 /* main.m */; };
+		419B1CF01616774500D137E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 419B1CEF1616774500D137E4 /* AppDelegate.m */; };
+		419B1CF21616774500D137E4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 419B1CF11616774500D137E4 /* Default.png */; };
+		419B1CF41616774500D137E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 419B1CF31616774500D137E4 /* Default@2x.png */; };
+		419B1CF61616774600D137E4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 419B1CF51616774600D137E4 /* Default-568h@2x.png */; };
+		419B1CF91616774600D137E4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419B1CF71616774600D137E4 /* MainStoryboard_iPhone.storyboard */; };
+		419B1CFC1616774600D137E4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419B1CFA1616774600D137E4 /* MainStoryboard_iPad.storyboard */; };
+		419B1CFF1616774600D137E4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 419B1CFE1616774600D137E4 /* FirstViewController.m */; };
+		419B1D011616774600D137E4 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 419B1D001616774600D137E4 /* first.png */; };
+		419B1D031616774600D137E4 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 419B1D021616774600D137E4 /* first@2x.png */; };
+		419B1D061616774600D137E4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 419B1D051616774600D137E4 /* SecondViewController.m */; };
+		419B1D081616774600D137E4 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 419B1D071616774600D137E4 /* second.png */; };
+		419B1D0A1616774600D137E4 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 419B1D091616774600D137E4 /* second@2x.png */; };
+		419B1D121616774700D137E4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B1D111616774700D137E4 /* SenTestingKit.framework */; };
+		419B1D131616774700D137E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B1CDF1616774400D137E4 /* UIKit.framework */; };
+		419B1D141616774700D137E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B1CE11616774400D137E4 /* Foundation.framework */; };
+		419B1D1C1616774700D137E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 419B1D1A1616774700D137E4 /* InfoPlist.strings */; };
+		419B1D1F1616774700D137E4 /* Arduino_Badge_DriverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 419B1D1E1616774700D137E4 /* Arduino_Badge_DriverTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		419B1D151616774700D137E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 419B1CD21616774300D137E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 419B1CDA1616774300D137E4;
+			remoteInfo = "Arduino Badge Driver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		419B1CDB1616774400D137E4 /* Arduino Badge Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arduino Badge Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		419B1CDF1616774400D137E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		419B1CE11616774400D137E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		419B1CE31616774400D137E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		419B1CE71616774400D137E4 /* Arduino Badge Driver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Arduino Badge Driver-Info.plist"; sourceTree = "<group>"; };
+		419B1CE91616774500D137E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		419B1CEB1616774500D137E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		419B1CED1616774500D137E4 /* Arduino Badge Driver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Arduino Badge Driver-Prefix.pch"; sourceTree = "<group>"; };
+		419B1CEE1616774500D137E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		419B1CEF1616774500D137E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		419B1CF11616774500D137E4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		419B1CF31616774500D137E4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		419B1CF51616774600D137E4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		419B1CF81616774600D137E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		419B1CFB1616774600D137E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		419B1CFD1616774600D137E4 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		419B1CFE1616774600D137E4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		419B1D001616774600D137E4 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		419B1D021616774600D137E4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		419B1D041616774600D137E4 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		419B1D051616774600D137E4 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		419B1D071616774600D137E4 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		419B1D091616774600D137E4 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		419B1D101616774700D137E4 /* Arduino Badge DriverTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arduino Badge DriverTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		419B1D111616774700D137E4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		419B1D191616774700D137E4 /* Arduino Badge DriverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Arduino Badge DriverTests-Info.plist"; sourceTree = "<group>"; };
+		419B1D1B1616774700D137E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		419B1D1D1616774700D137E4 /* Arduino_Badge_DriverTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Arduino_Badge_DriverTests.h; sourceTree = "<group>"; };
+		419B1D1E1616774700D137E4 /* Arduino_Badge_DriverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Arduino_Badge_DriverTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		419B1CD81616774300D137E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419B1CE01616774400D137E4 /* UIKit.framework in Frameworks */,
+				419B1CE21616774400D137E4 /* Foundation.framework in Frameworks */,
+				419B1CE41616774400D137E4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419B1D0C1616774700D137E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419B1D121616774700D137E4 /* SenTestingKit.framework in Frameworks */,
+				419B1D131616774700D137E4 /* UIKit.framework in Frameworks */,
+				419B1D141616774700D137E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		419B1CD01616774300D137E4 = {
+			isa = PBXGroup;
+			children = (
+				419B1CE51616774400D137E4 /* Arduino Badge Driver */,
+				419B1D171616774700D137E4 /* Arduino Badge DriverTests */,
+				419B1CDE1616774400D137E4 /* Frameworks */,
+				419B1CDC1616774400D137E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		419B1CDC1616774400D137E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				419B1CDB1616774400D137E4 /* Arduino Badge Driver.app */,
+				419B1D101616774700D137E4 /* Arduino Badge DriverTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		419B1CDE1616774400D137E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				419B1CDF1616774400D137E4 /* UIKit.framework */,
+				419B1CE11616774400D137E4 /* Foundation.framework */,
+				419B1CE31616774400D137E4 /* CoreGraphics.framework */,
+				419B1D111616774700D137E4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		419B1CE51616774400D137E4 /* Arduino Badge Driver */ = {
+			isa = PBXGroup;
+			children = (
+				419B1CEE1616774500D137E4 /* AppDelegate.h */,
+				419B1CEF1616774500D137E4 /* AppDelegate.m */,
+				419B1CF71616774600D137E4 /* MainStoryboard_iPhone.storyboard */,
+				419B1CFA1616774600D137E4 /* MainStoryboard_iPad.storyboard */,
+				419B1CFD1616774600D137E4 /* FirstViewController.h */,
+				419B1CFE1616774600D137E4 /* FirstViewController.m */,
+				419B1D001616774600D137E4 /* first.png */,
+				419B1D021616774600D137E4 /* first@2x.png */,
+				419B1D041616774600D137E4 /* SecondViewController.h */,
+				419B1D051616774600D137E4 /* SecondViewController.m */,
+				419B1D071616774600D137E4 /* second.png */,
+				419B1D091616774600D137E4 /* second@2x.png */,
+				419B1CE61616774400D137E4 /* Supporting Files */,
+			);
+			path = "Arduino Badge Driver";
+			sourceTree = "<group>";
+		};
+		419B1CE61616774400D137E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				419B1CE71616774400D137E4 /* Arduino Badge Driver-Info.plist */,
+				419B1CE81616774500D137E4 /* InfoPlist.strings */,
+				419B1CEB1616774500D137E4 /* main.m */,
+				419B1CED1616774500D137E4 /* Arduino Badge Driver-Prefix.pch */,
+				419B1CF11616774500D137E4 /* Default.png */,
+				419B1CF31616774500D137E4 /* Default@2x.png */,
+				419B1CF51616774600D137E4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		419B1D171616774700D137E4 /* Arduino Badge DriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				419B1D1D1616774700D137E4 /* Arduino_Badge_DriverTests.h */,
+				419B1D1E1616774700D137E4 /* Arduino_Badge_DriverTests.m */,
+				419B1D181616774700D137E4 /* Supporting Files */,
+			);
+			path = "Arduino Badge DriverTests";
+			sourceTree = "<group>";
+		};
+		419B1D181616774700D137E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				419B1D191616774700D137E4 /* Arduino Badge DriverTests-Info.plist */,
+				419B1D1A1616774700D137E4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		419B1CDA1616774300D137E4 /* Arduino Badge Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419B1D221616774700D137E4 /* Build configuration list for PBXNativeTarget "Arduino Badge Driver" */;
+			buildPhases = (
+				419B1CD71616774300D137E4 /* Sources */,
+				419B1CD81616774300D137E4 /* Frameworks */,
+				419B1CD91616774300D137E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arduino Badge Driver";
+			productName = "Arduino Badge Driver";
+			productReference = 419B1CDB1616774400D137E4 /* Arduino Badge Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		419B1D0F1616774700D137E4 /* Arduino Badge DriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419B1D251616774700D137E4 /* Build configuration list for PBXNativeTarget "Arduino Badge DriverTests" */;
+			buildPhases = (
+				419B1D0B1616774700D137E4 /* Sources */,
+				419B1D0C1616774700D137E4 /* Frameworks */,
+				419B1D0D1616774700D137E4 /* Resources */,
+				419B1D0E1616774700D137E4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				419B1D161616774700D137E4 /* PBXTargetDependency */,
+			);
+			name = "Arduino Badge DriverTests";
+			productName = "Arduino Badge DriverTests";
+			productReference = 419B1D101616774700D137E4 /* Arduino Badge DriverTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		419B1CD21616774300D137E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Kelly John Rose";
+			};
+			buildConfigurationList = 419B1CD51616774300D137E4 /* Build configuration list for PBXProject "Arduino Badge Driver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 419B1CD01616774300D137E4;
+			productRefGroup = 419B1CDC1616774400D137E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				419B1CDA1616774300D137E4 /* Arduino Badge Driver */,
+				419B1D0F1616774700D137E4 /* Arduino Badge DriverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		419B1CD91616774300D137E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419B1CEA1616774500D137E4 /* InfoPlist.strings in Resources */,
+				419B1CF21616774500D137E4 /* Default.png in Resources */,
+				419B1CF41616774500D137E4 /* Default@2x.png in Resources */,
+				419B1CF61616774600D137E4 /* Default-568h@2x.png in Resources */,
+				419B1CF91616774600D137E4 /* MainStoryboard_iPhone.storyboard in Resources */,
+				419B1CFC1616774600D137E4 /* MainStoryboard_iPad.storyboard in Resources */,
+				419B1D011616774600D137E4 /* first.png in Resources */,
+				419B1D031616774600D137E4 /* first@2x.png in Resources */,
+				419B1D081616774600D137E4 /* second.png in Resources */,
+				419B1D0A1616774600D137E4 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419B1D0D1616774700D137E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419B1D1C1616774700D137E4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		419B1D0E1616774700D137E4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		419B1CD71616774300D137E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419B1CEC1616774500D137E4 /* main.m in Sources */,
+				419B1CF01616774500D137E4 /* AppDelegate.m in Sources */,
+				419B1CFF1616774600D137E4 /* FirstViewController.m in Sources */,
+				419B1D061616774600D137E4 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419B1D0B1616774700D137E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419B1D1F1616774700D137E4 /* Arduino_Badge_DriverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		419B1D161616774700D137E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 419B1CDA1616774300D137E4 /* Arduino Badge Driver */;
+			targetProxy = 419B1D151616774700D137E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		419B1CE81616774500D137E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				419B1CE91616774500D137E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		419B1CF71616774600D137E4 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				419B1CF81616774600D137E4 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		419B1CFA1616774600D137E4 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				419B1CFB1616774600D137E4 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		419B1D1A1616774700D137E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				419B1D1B1616774700D137E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		419B1D201616774700D137E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		419B1D211616774700D137E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		419B1D231616774700D137E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arduino Badge Driver/Arduino Badge Driver-Prefix.pch";
+				INFOPLIST_FILE = "Arduino Badge Driver/Arduino Badge Driver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		419B1D241616774700D137E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arduino Badge Driver/Arduino Badge Driver-Prefix.pch";
+				INFOPLIST_FILE = "Arduino Badge Driver/Arduino Badge Driver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		419B1D261616774700D137E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Arduino Badge Driver.app/Arduino Badge Driver";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arduino Badge Driver/Arduino Badge Driver-Prefix.pch";
+				INFOPLIST_FILE = "Arduino Badge DriverTests/Arduino Badge DriverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		419B1D271616774700D137E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Arduino Badge Driver.app/Arduino Badge Driver";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arduino Badge Driver/Arduino Badge Driver-Prefix.pch";
+				INFOPLIST_FILE = "Arduino Badge DriverTests/Arduino Badge DriverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		419B1CD51616774300D137E4 /* Build configuration list for PBXProject "Arduino Badge Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419B1D201616774700D137E4 /* Debug */,
+				419B1D211616774700D137E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419B1D221616774700D137E4 /* Build configuration list for PBXNativeTarget "Arduino Badge Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419B1D231616774700D137E4 /* Debug */,
+				419B1D241616774700D137E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		419B1D251616774700D137E4 /* Build configuration list for PBXNativeTarget "Arduino Badge DriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419B1D261616774700D137E4 /* Debug */,
+				419B1D271616774700D137E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 419B1CD21616774300D137E4 /* Project object */;
+}
