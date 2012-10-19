@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41010D101617B6F9007A1F74 /* TweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41010D0F1617B6F9007A1F74 /* TweetViewController.m */; };
+		41010D131617BDC7007A1F74 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41010D121617BDC7007A1F74 /* Twitter.framework */; };
+		41010D151617BEFE007A1F74 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41010D141617BEFE007A1F74 /* Accounts.framework */; };
 		419B1CE01616774400D137E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B1CDF1616774400D137E4 /* UIKit.framework */; };
 		419B1CE21616774400D137E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B1CE11616774400D137E4 /* Foundation.framework */; };
 		419B1CE41616774400D137E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B1CE31616774400D137E4 /* CoreGraphics.framework */; };
@@ -29,6 +32,10 @@
 		419B1D141616774700D137E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B1CE11616774400D137E4 /* Foundation.framework */; };
 		419B1D1C1616774700D137E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 419B1D1A1616774700D137E4 /* InfoPlist.strings */; };
 		419B1D1F1616774700D137E4 /* Arduino_Badge_DriverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 419B1D1E1616774700D137E4 /* Arduino_Badge_DriverTests.m */; };
+		419B1D29161679E100D137E4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B1D28161679E100D137E4 /* AVFoundation.framework */; };
+		419B1D2B16167C1C00D137E4 /* lightOn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 419B1D2A16167C1C00D137E4 /* lightOn.wav */; };
+		419B1D2D161682E400D137E4 /* lightOff.wav in Resources */ = {isa = PBXBuildFile; fileRef = 419B1D2C161682E400D137E4 /* lightOff.wav */; };
+		41FC093A16168B26003BCEB9 /* leftPulse.wav in Resources */ = {isa = PBXBuildFile; fileRef = 41FC093916168B26003BCEB9 /* leftPulse.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41010D0E1617B6F9007A1F74 /* TweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetViewController.h; sourceTree = "<group>"; };
+		41010D0F1617B6F9007A1F74 /* TweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetViewController.m; sourceTree = "<group>"; };
+		41010D121617BDC7007A1F74 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		41010D141617BEFE007A1F74 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		419B1CDB1616774400D137E4 /* Arduino Badge Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arduino Badge Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		419B1CDF1616774400D137E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		419B1CE11616774400D137E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -71,6 +82,10 @@
 		419B1D1B1616774700D137E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		419B1D1D1616774700D137E4 /* Arduino_Badge_DriverTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Arduino_Badge_DriverTests.h; sourceTree = "<group>"; };
 		419B1D1E1616774700D137E4 /* Arduino_Badge_DriverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Arduino_Badge_DriverTests.m; sourceTree = "<group>"; };
+		419B1D28161679E100D137E4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		419B1D2A16167C1C00D137E4 /* lightOn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lightOn.wav; sourceTree = "<group>"; };
+		419B1D2C161682E400D137E4 /* lightOff.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lightOff.wav; sourceTree = "<group>"; };
+		41FC093916168B26003BCEB9 /* leftPulse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = leftPulse.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41010D151617BEFE007A1F74 /* Accounts.framework in Frameworks */,
+				41010D131617BDC7007A1F74 /* Twitter.framework in Frameworks */,
+				419B1D29161679E100D137E4 /* AVFoundation.framework in Frameworks */,
 				419B1CE01616774400D137E4 /* UIKit.framework in Frameworks */,
 				419B1CE21616774400D137E4 /* Foundation.framework in Frameworks */,
 				419B1CE41616774400D137E4 /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +118,9 @@
 		419B1CD01616774300D137E4 = {
 			isa = PBXGroup;
 			children = (
+				41010D141617BEFE007A1F74 /* Accounts.framework */,
+				41010D121617BDC7007A1F74 /* Twitter.framework */,
+				419B1D28161679E100D137E4 /* AVFoundation.framework */,
 				419B1CE51616774400D137E4 /* Arduino Badge Driver */,
 				419B1D171616774700D137E4 /* Arduino Badge DriverTests */,
 				419B1CDE1616774400D137E4 /* Frameworks */,
@@ -133,9 +154,14 @@
 				419B1CEE1616774500D137E4 /* AppDelegate.h */,
 				419B1CEF1616774500D137E4 /* AppDelegate.m */,
 				419B1CF71616774600D137E4 /* MainStoryboard_iPhone.storyboard */,
+				41010D0E1617B6F9007A1F74 /* TweetViewController.h */,
+				41010D0F1617B6F9007A1F74 /* TweetViewController.m */,
 				419B1CFA1616774600D137E4 /* MainStoryboard_iPad.storyboard */,
 				419B1CFD1616774600D137E4 /* FirstViewController.h */,
 				419B1CFE1616774600D137E4 /* FirstViewController.m */,
+				41FC093916168B26003BCEB9 /* leftPulse.wav */,
+				419B1D2C161682E400D137E4 /* lightOff.wav */,
+				419B1D2A16167C1C00D137E4 /* lightOn.wav */,
 				419B1D001616774600D137E4 /* first.png */,
 				419B1D021616774600D137E4 /* first@2x.png */,
 				419B1D041616774600D137E4 /* SecondViewController.h */,
@@ -261,6 +287,9 @@
 				419B1D031616774600D137E4 /* first@2x.png in Resources */,
 				419B1D081616774600D137E4 /* second.png in Resources */,
 				419B1D0A1616774600D137E4 /* second@2x.png in Resources */,
+				419B1D2B16167C1C00D137E4 /* lightOn.wav in Resources */,
+				419B1D2D161682E400D137E4 /* lightOff.wav in Resources */,
+				41FC093A16168B26003BCEB9 /* leftPulse.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +328,7 @@
 				419B1CF01616774500D137E4 /* AppDelegate.m in Sources */,
 				419B1CFF1616774600D137E4 /* FirstViewController.m in Sources */,
 				419B1D061616774600D137E4 /* SecondViewController.m in Sources */,
+				41010D101617B6F9007A1F74 /* TweetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +512,7 @@
 				419B1D241616774700D137E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		419B1D251616774700D137E4 /* Build configuration list for PBXNativeTarget "Arduino Badge DriverTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +521,7 @@
 				419B1D271616774700D137E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Accounts/Accounts.h>
+#import <Twitter/Twitter.h>
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+{
+    NSArray *tweets;
+}
+
+- (void)fetchTweets;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end

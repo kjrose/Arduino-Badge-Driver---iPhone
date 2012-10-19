@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIdentifier</key>
-	<string>Panda-Rose-Consulting-Studios-Inc.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>ca.pandarose.suzannemap</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
